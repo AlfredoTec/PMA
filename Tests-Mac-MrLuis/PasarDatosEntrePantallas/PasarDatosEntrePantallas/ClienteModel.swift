@@ -8,13 +8,19 @@
 import UIKit
 
 class ClienteModel: NSObject {
-    var nombre: String = ""
+    var Codigo: Int32 = 0
+    var Apellido: String = ""
+    var Nombre: String = ""
+    var Dni: String = ""
     
     override init() {
         
     }
     
-    init(nombre: String) {
-        self.nombre = nombre
+    init(Codigo: Int32, Apellido: String, Nombre: String, Dni: String) {
+        self.Codigo = Codigo
+        self.Apellido = Apellido
+        self.Nombre = Nombre
+        self.Dni = Dni
     }
 }

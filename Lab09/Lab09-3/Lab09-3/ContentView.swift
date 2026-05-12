@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Cursos")
+            .navigationTitle("📘 Cursos")
             .toolbar {
                 Button(action: {
                     showingAddCourse = true

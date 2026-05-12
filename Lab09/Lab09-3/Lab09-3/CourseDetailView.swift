@@ -16,6 +16,5 @@ struct CourseDetailView: View {
             Spacer()
         }
         .padding()
-        .navigationTitle(curso.title)
     }
 }

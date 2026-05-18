@@ -56,7 +56,9 @@ struct CTSView: View {
                     Text("Proporción (meses/12): \(calculo.mesesTrabajados/12, specifier: "%.4f")")
                 }
             }
+            
             .navigationTitle("Cálculo CTS")
+            
         }
     }
 }
